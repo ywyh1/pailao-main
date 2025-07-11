@@ -1,0 +1,91 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 4
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact][html][less][css][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "prettier.bracketSameLine": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": true,
+  "prettier.bracketSpacing": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 140,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.useEditorConfig": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": false,
+
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showAbbreviationSuggestions": true,
+
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.detectIndentation": true,
+  "editor.lineNumbers": "on",
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.stickyScroll.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [140, 180],
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/@types": true,
+    "**/.zebras": true,
+    "**/.zebras-production": true,
+    "**/@zebras-types": true,
+    "**/run": true,
+    "**/dist": true,
+    "**/logs": true
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/.DS_Store": true,
+    "**/.zebras": true,
+    "**/.zebras-production": true,
+    "**/@zebras-types": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/pnpm-lock.yaml": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/.prettierrc": true,
+    "**/.prettierignore": true,
+    "**/tsconfig.json": true,
+    "**/.lintstagedrc": true,
+    "**/.eslintrc.js": true,
+    "**/.stylelintrc.js": true,
+    "**/.husky": true,
+    "**/.npmrc": true
+  }
+}

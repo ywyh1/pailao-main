@@ -1,0 +1,17 @@
+{
+  "*.{md,json}": [
+    "prettier --cache --write"
+  ],
+  "*.{js,jsx}": [
+    "zebras lint --fix --eslint-only",
+    "prettier --cache --write"
+  ],
+  "*.{css,less}": [
+    "zebras lint --fix --stylelint-only",
+    "prettier --cache --write"
+  ],
+  "*.ts?(x)": [
+    "zebras lint --fix --eslint-only",
+    "prettier --cache --parser=typescript --write"
+  ]
+}

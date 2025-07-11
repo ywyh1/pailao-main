@@ -1,0 +1,31 @@
+# editor
+/.history
+/.idea
+# /.vscode
+
+# project
+/node_modules
+/.zebras
+/.zebras-production
+/dist
+
+# local configs
+/*.local
+/*.local.*
+
+# OS
+/.DS_Store
+
+/node_modules
+/.env.local
+/.zebras.local.ts
+/config/config.local.ts
+/src/.zebras
+/src/.zebras-production
+/src/.zebras-test
+/.zebras
+/.zebras-production
+/.zebras-test
+/dist
+/.mfsu
+.swc

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "ParthR2031.colorful-comments",
+    "christian-kohler.path-intellisense"
+  ]
+}
