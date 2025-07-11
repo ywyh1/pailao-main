@@ -1,0 +1,1237 @@
+[
+  {
+    "id": "3d5829b3-b97f-4020-b6e4-72a768c7923e",
+    "name": "日历数据图2",
+    "groupName": "图表",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "1277382f-9cd3-4df8-ab90-5fd006791e7e",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //名称\n    title: '组件名称',\n    //缩略图\n    thumbnail:'',\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/EchartCalendarNumber",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "9ea02570-8c15-437d-b205-105c2e08a2b0",
+    "name": "玫瑰饼图",
+    "groupName": "图表",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "edabb7f8-be15-45c4-8f8f-5fc39c534360",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/EchartRosePie",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "717ad9e6-995d-4483-8b59-d4cc88ce7497",
+    "name": "圆柱图",
+    "groupName": "图表",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "22ca381c-b390-47a5-84c5-43794e6520c4",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/EchartCylinder",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "6cb8ce5c-a523-479b-ba05-292fe0198510",
+    "name": "开关",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "85420e78-cda9-4e5a-b340-a37413348267",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenSwitch",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "591e07cb-ddd8-4d12-b0c8-b728332f6ac3",
+    "name": "滑动输入条",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "4f8aa3ea-0b88-43d8-8076-0fec5e9c4d47",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenSlider",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d3342e3c-3e6c-456d-b2f9-b5ed37354b90",
+    "name": "复选框",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "d0893e8b-b4d2-4cdf-95f1-c011540f1cf5",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenCheckbox",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "8de55b8f-1cb9-4997-b220-5775ae9b35f7",
+    "name": "级联选择",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "13a7270e-15f5-4658-a9c2-34b0868c7474",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenCascader",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "2bc15010-1e78-4b4f-92a5-a7436f3b465b",
+    "name": "树形选择",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "d2e50adb-9137-42ae-ae83-72ce97ffd89c",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenTreeSelect",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "b193e8ae-8ce1-4fe4-9536-564c50f39f99",
+    "name": "步骤条",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 2,
+        "renderType": "component",
+        "id": "22cd344f-f687-439e-9386-86555bd560ac",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    //属性\n    props:{\n        name:{\n            type:ITypes.String,\n            description:'名称',\n            value:'默认值'\n        }\n    },\n    //事件\n    events:{},\n    //方法\n    methods:{},\n    //插槽\n    slots:{},\n})",
+          "javascript": ""
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/ScreenSteps",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d0d99ddf-c82a-430f-9571-a1aac79475d2",
+    "name": "网页容器",
+    "groupName": "控件",
+    "thumbnail": "",
+    "descr": "",
+    "weight": 1750324867000,
+    "config": [
+      {
+        "packageType": 1,
+        "renderType": "component",
+        "id": "454940b1-c883-4775-8c7b-a8a062ae8ac3",
+        "options": {
+          "typescript": " \nimport { defineComponent , ITypes } from '@/screen_design_utils/sdk';        \nexport default defineComponent({\n    designerThumbnail:true,\n    //属性\n    props:{\n        src:{\n            type:ITypes.String,\n            description:'网页地址',\n            value:'http://dev.panshi_platform.fes3.msdi.cn/'\n        }\n    },\n    //事件\n    events:{\n        onMessage:{\n            description:'接收消息',\n            params:{\n                data:{\n                    type:ITypes.Any,\n                    description:'数据'\n                }\n            }\n        }\n    },\n    //方法\n    methods:{\n        postMessage:{\n            description:'发送消息',\n            params:{\n                data:{\n                    type:ITypes.Any,\n                    description:'数据'\n                }\n            }\n        }\n    },\n    //插槽\n    slots:{},\n})",
+          "javascript": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nconst sdk_1 = require(\"@/screen_design_utils/sdk\");\r\nexports.default = (0, sdk_1.defineComponent)({\r\n    designerThumbnail: true,\r\n    //属性\r\n    props: {\r\n        src: {\r\n            type: sdk_1.ITypes.String,\r\n            description: '网页地址',\r\n            value: 'http://dev.panshi_platform.fes3.msdi.cn/'\r\n        }\r\n    },\r\n    //事件\r\n    events: {\r\n        onMessage: {\r\n            description: '接收消息',\r\n            params: {\r\n                data: {\r\n                    type: sdk_1.ITypes.Any,\r\n                    description: '数据'\r\n                }\r\n            }\r\n        }\r\n    },\r\n    //方法\r\n    methods: {\r\n        postMessage: {\r\n            description: '发送消息',\r\n            params: {\r\n                data: {\r\n                    type: sdk_1.ITypes.Any,\r\n                    description: '数据'\r\n                }\r\n            }\r\n        }\r\n    },\r\n    //插槽\r\n    slots: {},\r\n});\r\n"
+        },
+        "render": {
+          "typescript": "//@ts-check\n\n//import {} from 'ahooks';\n//import classNames from 'classnames';\n//import moment from 'moment'\nimport { Button } from 'antd';\nimport React from 'react';\nimport styles from '@@/index.less';\n\n  \nexport default (/** @type { IComponentRenderProps } */ props )=>{\n    return <div>组件</div>\n}            \n",
+          "javascript": ""
+        },
+        "style": {
+          "less": "",
+          "css": "",
+          "map": {}
+        },
+        "libs": {
+          "typescript": "",
+          "javascript": ""
+        },
+        "resource": [],
+        "package": "@zebras/screen_design_comp/WebView",
+        "module": "WebView"
+      }
+    ]
+  },
+  {
+    "id": "2dad810a-1412-477e-8c38-82cd3e1fd932",
+    "name": "轮播柱状图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154109023136016728336705",
+    "descr": "",
+    "weight": 1740734766000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartCarouselBar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "270bf232-5271-4ba4-931f-73d9fb959936",
+    "name": "背景柱状图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154130056786574532470284",
+    "descr": "",
+    "weight": 1740734746000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartBgBar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "7b6481a7-cbd8-423f-b64d-eb9b6e7d578b",
+    "name": "多色饼图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154147362153463734644110",
+    "descr": "",
+    "weight": 1740734719000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartMulticolorPie",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "30c80c62-0206-4bde-b642-53200cb1fdb2",
+    "name": "进度条",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154712271087025327685782",
+    "descr": "",
+    "weight": 1740637636000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScreenProgress",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "a611a347-9b86-4add-a3f5-57748ada3bd9",
+    "name": "日历图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154203261465071436852482",
+    "descr": "",
+    "weight": 1740637172000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartCalendar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "97485b38-bf43-428b-a9d5-62dea1746837",
+    "name": "雷达图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154220502324345311274746",
+    "descr": "",
+    "weight": 1740637144000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartRadar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "c5be8263-54fe-43c3-9f47-b22c2960338a",
+    "name": "桑基图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154240013205445040283757",
+    "descr": "",
+    "weight": 1740637120000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartSankey",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "17540a9e-d7d6-48ca-bcf0-d7ec8e695868",
+    "name": "旭日图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154258773112111877200152",
+    "descr": "",
+    "weight": 1740637088000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartSunburst",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "b6b5971c-52d4-4b75-bc24-cb643e2d5873",
+    "name": "排序号",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153402472310717860362187",
+    "descr": "",
+    "weight": 1740369064000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Ranking",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "2119e88b-d248-46fb-be4f-fb215d37a53a",
+    "name": "轮播控件",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154811758888005125736042",
+    "descr": "",
+    "weight": 1739936250000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/SCarousel",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "754da9ed-75fa-4a52-97cb-52cc857a72b7",
+    "name": "云视频播放",
+    "groupName": "视频",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160000176612242070303118",
+    "descr": "",
+    "weight": 1739876213000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/CloudPlayerComponent",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d56d6444-bdca-482f-8856-c6728a93ce5a",
+    "name": "树形控件",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155002531307866064256305",
+    "descr": "",
+    "weight": 1739873755000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/TreeView",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "f2ddfd01-c173-42fc-bdf8-9604306fe9bf",
+    "name": "监控视屏播放器",
+    "groupName": "视频",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160019023421577585128004",
+    "descr": "",
+    "weight": 1739523144000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/CloudPlayer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "409714cd-64d9-4b4e-96ce-f818cba8adbf",
+    "name": "缩放面板",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155658101751567008025136",
+    "descr": "",
+    "weight": 1739322848000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/LegendContainer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "a5c1662c-74d1-4229-9b42-30947a4fb901",
+    "name": "循环容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155716006070768714281336",
+    "descr": "",
+    "weight": 1739257324000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EachContainer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "e4143edb-a723-4ccb-ab64-de14bcf5895f",
+    "name": "标题",
+    "groupName": "标题/导航栏",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160057033081587376866736",
+    "descr": "",
+    "weight": 1737598219000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Header",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "5ace1ad5-3075-406d-8a91-76d8810cf97d",
+    "name": "视频组件",
+    "groupName": "视频",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160037568677615020643484",
+    "descr": "",
+    "weight": 1737023490000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScreenVideo",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "73a10a66-a78a-46e7-a8bb-c908c8ca837c",
+    "name": "可切换容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155735210724275156171340",
+    "descr": "可切换容器",
+    "weight": 1737008729000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/TabContainer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "45c51e94-c48f-46e0-95ef-46f6075a0f43",
+    "name": "按钮",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153548042325820784203766",
+    "descr": "",
+    "weight": 1735560299000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScrenButton",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "aae31d4c-3e62-4539-87b3-fe9fa2a00f90",
+    "name": "伸缩侧边栏",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155755206740440480876886",
+    "descr": "",
+    "weight": 1735560219000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Sider",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "8ab1fbd9-68fa-48f8-9864-80c4929b79f5",
+    "name": "图标按钮",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153612602608082545288807",
+    "descr": "",
+    "weight": 1735559990000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/IconButton",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "1b4716b8-e069-4969-97f3-f860a97d2010",
+    "name": "伸缩面板",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155811668322681188565032",
+    "descr": "",
+    "weight": 1735559667000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ExpansionPanel",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d4574239-26bb-4fb2-9578-64ca22a29bcf",
+    "name": "时间显示",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153633620356656155548378",
+    "descr": "",
+    "weight": 1735558997000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/DateText",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "e81b74e7-b579-4846-aeea-4de0f3f5a73b",
+    "name": "定位容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155829762616413336556465",
+    "descr": "",
+    "weight": 1735558660000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/RelativeContainer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "0da8ba0c-d447-4b83-b657-25dd0c26d7db",
+    "name": "输入框",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155409881828058015288746",
+    "descr": "",
+    "weight": 1735558597000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScreenInput",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "610a9b61-c710-4c5a-ae76-87e896dc7185",
+    "name": "回形时间轴",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155427501545153253842033",
+    "descr": "",
+    "weight": 1735558551000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/TimeLine",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "86411bcb-2165-43fb-b5f3-806303293cea",
+    "name": "时间轴",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155446328214241526547425",
+    "descr": "",
+    "weight": 1735558508000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/VerticalTimeline",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "f8c63c3a-e59d-4434-9f92-6b505a45d1dc",
+    "name": "弹窗",
+    "groupName": "弹窗",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155846448265202181172237",
+    "descr": "",
+    "weight": 1735558385000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScreenModal",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "eabd8a0a-dd23-45f1-9988-cd3464a6f374",
+    "name": "3D饼图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154315286626536044467850",
+    "descr": "",
+    "weight": 1735555697000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Echarts3DPie",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d68052f8-ebd1-4bf4-8fc0-db3139c9f791",
+    "name": "表格",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154334345157875001807462",
+    "descr": "",
+    "weight": 1735550568000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Table",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "7b047079-2cf0-4aac-9cd5-4b88eb67b949",
+    "name": "Bim",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154356836733231538681785",
+    "descr": "",
+    "weight": 1735293839000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Bim",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "bc543f1b-134a-4bba-8301-acf0ccfd0119",
+    "name": "饼图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154414275587326103060711",
+    "descr": "",
+    "weight": 1735292306000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartPie",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "a2289fe5-ce48-f615-a9ef-0e3c221c9e96",
+    "name": "3D地图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154434173632102206258677",
+    "descr": "",
+    "weight": 1734507507000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Echarts3DMap",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "2e45b2ca-ca69-a323-6f40-2b17d31b98d3",
+    "name": "标题导航",
+    "groupName": "标题/导航栏",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160119367724525626285614",
+    "descr": "",
+    "weight": 1734092343000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Header",
+        "module": "default"
+      },
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/NavBar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "1b20ff2d-d503-2353-516b-b8c4a678e877",
+    "name": "GIS组件",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154452456702876632541170",
+    "descr": "",
+    "weight": 1732618050000,
+    "config": [
+      {
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Gis",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "11050dde-fe2d-264b-ab96-7063ff7fa046",
+    "name": "堆叠图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154509776606310347180300",
+    "descr": "堆叠图",
+    "weight": 1732084578000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartsStackDiagram",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "da12d570-8f03-0ebf-a2c3-baafe2c52412",
+    "name": "多色柱状图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154527482450645314184680",
+    "descr": "多色柱状图",
+    "weight": 1732074107000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartMulticolorBar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "480431a5-9206-5df9-0c73-86f0dac55e6e",
+    "name": "图标卡片容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155904268654437165810657",
+    "descr": "带图标的标题",
+    "weight": 1731051857000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/CardContainer",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "1c8e9cec-4fb6-eaad-3ff1-74cbc58cdaca",
+    "name": "文本数值",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153927300377340646356461",
+    "descr": "文本",
+    "weight": 1730980432000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Label",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "196f2258-0303-4121-fcd6-b87a4dab4a73",
+    "name": "图标文字",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153905082572021427032704",
+    "descr": "图标文字",
+    "weight": 1730980261000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/LableImage",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "4c4ec437-bcce-a4c1-b7aa-c4dd6796e9c8",
+    "name": "数值",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153859808030262515004265",
+    "descr": "数值",
+    "weight": 1730980051000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/LabelNumber",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "d12a82b9-edb6-1daa-711a-16a3e328d0c4",
+    "name": "富文本",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314153949127888477275151843",
+    "descr": "",
+    "weight": 1730879555000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/RichText",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "256418e3-bd3a-bba2-3386-d7dca06ce0f4",
+    "name": "静态图片",
+    "groupName": "图片",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160201767428336733308523",
+    "descr": "大屏模板/卡片模板/页面模板：\n我创建，我收藏，搜索，排序，\n新增，编辑：名称限长50，编辑时角色不可更改 （去掉是否公开字段）\n复制：逻辑与编辑一致\n权限设置：自建数据可配置项目团队成员权限\n删除：自建数据可删除\n配置：见下格\n模板预览：点击文件名称进入\n是否公开-查看其他用户数据：\n权限（可编辑）操作功能：收藏，编辑，配置，复制\n权限（可查看）操作功能：收藏，复制\n自己数据操作功能：收藏，编辑，配置，复制，权限配置，删除大屏模板/卡片模板/页面模板：\n我创建，我收藏，搜索，排序，\n新增，编辑：名称限长50，编辑时角色不可更改 （去掉是否公开字段）\n复制：逻辑与编辑一致\n权限设置：自建数据可配置项目团队成员权限\n删除：自建数据可删除\n配置：见下格\n模板预览：点击文件名称进入\n是否公开-查看其他用户数据：\n权限（可编辑）操作功能：收藏，编辑，配置，复制\n权限（可查看）操作功能：收藏，复制\n自己数据操作功能：收藏，编辑，配置，复制，权限配置，删除",
+    "weight": 1730854457000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Image",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "daf2e118-177d-1dbe-45fe-f1ade0b1306d",
+    "name": "栏目标题",
+    "groupName": "标题/导航栏",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314160139721640233726765116",
+    "descr": "",
+    "weight": 1730794610000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Title",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "1f69abb2-f648-7742-767d-015c153f77f0",
+    "name": "折线图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154615027543563748061765",
+    "descr": "折线图",
+    "weight": 1730789462000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartLine",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "108b2827-4834-6c10-491f-e30e0cfe1eae",
+    "name": "柱状图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154633352010506437363328",
+    "descr": "柱状图",
+    "weight": 1730771563000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartGradientBar",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "a7170b66-4843-bf8e-c625-f1b5ba01533a",
+    "name": "日期范围选择",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155504821058425458180556",
+    "descr": "",
+    "weight": 1730691691000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/RangeDatePicker",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "c1fe9007-b036-36f4-0d40-ff6b6ef0f12d",
+    "name": "柱折图",
+    "groupName": "图表",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154650431881533411834325",
+    "descr": "柱折图简化版",
+    "weight": 1730450639000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/EchartBarLine",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "963bbf71-5bc4-9cd3-adb7-a2917fc37e1d",
+    "name": "基础容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155922714817328768225372",
+    "descr": "容器1",
+    "weight": 1730362419000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Container1",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "e769a6fb-fa28-cbe9-153d-545266b18bf8",
+    "name": "分割线",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155521037204845885662288",
+    "descr": "分割线",
+    "weight": 1730359741000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Dividerline",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "7dd29bb8-a272-b79b-7988-6e1eb0db5d1f",
+    "name": "切换按钮",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155538076237002430008533",
+    "descr": "",
+    "weight": 1730355449000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/SwitchButton",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "edfc0c4f-c9dc-3e0d-d1b4-0f95d518ffc6",
+    "name": "数值图标",
+    "groupName": "文本/标签",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314154009078357734213210267",
+    "descr": "数值图标",
+    "weight": 1730344639000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/LabelNumberImage",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "8c8d65ec-b6b1-491d-fc6f-3d45f625a4a0",
+    "name": "下拉选择",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155558107252012171580537",
+    "descr": "",
+    "weight": 1730285063000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/ScreenSelect",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "20544d95-7ffe-8180-4acd-a20df4b38efc",
+    "name": "日期选择",
+    "groupName": "控件",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155633531710030110724683",
+    "descr": "",
+    "weight": 1730277264000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/DatePicker",
+        "module": "default"
+      }
+    ]
+  },
+  {
+    "id": "7ee677d2-632e-e34f-51de-b83ec06ee481",
+    "name": "卡片容器",
+    "groupName": "容器",
+    "thumbnail": "http://attachments.gis.msdi.cn:6786/?20250314155940351861725762405555",
+    "descr": "容器组件",
+    "weight": 1730275094000,
+    "config": [
+      {
+        "renderType": "component",
+        "packageType": 2,
+        "package": "@zebras/screen_design_comp/Container",
+        "module": "default"
+      }
+    ]
+  }
+]
